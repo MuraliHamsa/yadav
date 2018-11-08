@@ -7,9 +7,52 @@
 <meta name="keywords" content="">
 <meta name="description" content="">
 <title>Susee Volkswagen Vellore </title>
+<!--Bootstrap -->
+<link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
+<!--Custome Style -->
+<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+<!--OWL Carousel slider-->
+<link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css">
+<link rel="stylesheet" href="assets/css/owl.transitions.css" type="text/css">
+<!--slick-slider -->
+<link href="assets/css/slick.css" rel="stylesheet">
+<!--bootstrap-slider -->
+<link href="assets/css/bootstrap-slider.min.css" rel="stylesheet">
+<!--FontAwesome Font Style -->
+<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- Custom Colors -->
+<link rel="stylesheet" href="assets/colors/red.css">
+<!--<link rel="stylesheet" href="assets/colors/orange.css">-->
+<!--<link rel="stylesheet" href="assets/colors/blue.css">-->
+<!--<link rel="stylesheet" href="assets/colors/pink.css">-->
+<!--<link rel="stylesheet" href="assets/colors/green.css">-->
+<!--<link rel="stylesheet" href="assets/colors/purple.css">-->
+        
+<!-- Fav and touch icons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/favicon-icon/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/favicon-icon/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/favicon-icon/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="assets/images/favicon-icon/apple-touch-icon-57-precomposed.png">
+<link rel="shortcut icon" href="assets/images/favicon-icon/favicon.png">
+<!-- Google-Font-->
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->  
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115619323-3"></script>
+<title>Susee Volkswagen Vellore </title>
 <style>
 
-
+img{
+ max-width: 100%; 
+ height: auto;
+}
 /* The Modal (background) */
 .modal {
   top: 0;
@@ -20,32 +63,26 @@
 
 /* Modal Content */
 .modal-content {
-  position: relative;
   background-color:white;
   margin: auto;
   padding: 0;
-  width: 100%;
+  max-width: 100%;
 
 }
 
 /* The Close Button */
 .close {
-  color: white;
   position: absolute;
   top: 10px;
-  right: 25px;
-  font-size:100px;
-  font-weight: bold;
-  color:black;
+  right:55px;
+  background-color:white;
+  border-radius:20%;
+  width: 44px !important;
+  height: 44px !important;
+  text-align:center;
 
 }
 
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
 
 .mySlides {
   display: none;
@@ -228,12 +265,12 @@ img.hover-shadow {
 </header>
 <!-- /Header --> 
 <div class="pass">
-    <h1  class="centered" style="position: absolute;margin-top:0%;margin-left:50%;transform:translate(-20%, -50%);font-size:60px;color:white;">Passat.</h1>
+    <h1  class="centered" style="position:absolute;margin-top:0%;margin-left:50%;transform:translate(-20%, -50%);font-size:60px;color:white;">Passat.</h1>
  <a href="testdrive.html" class="btn centered" style="position:relative;margin-top:30%;margin-left:50%;transform:translate(-50%, -50%);">Test Drive<i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a> 
 </div><br><br>
 <div class="ptext">
   <center>
-   <h1> Connect to a higher power </h1>
+   <h1 style="font-weight: bold;"> Connect to a higher power </h1>
   </center>
    <center> <p style="text-align:justify;text-align:center;margin-right:10%;margin-left:10%;height:150px;">Presenting the Volkswagen Passat Connect Edition. Packed with advanced technology and Volkswagen's legendary brand quality, the Connect Edition lets you have a complete overview of your car's performance with a tap of your mobile screen. And delivers a driving experience beyond expectation. </p></center>
   
@@ -241,51 +278,51 @@ img.hover-shadow {
 <div style="height:200px;background-color:#f3f5f6;background-size:cover;position:relative;">
   <center>
     <br><br><br>
-   <h1> Presence enough to turn heads. </h1>
+   <h1 style="font-weight: bold;"> Presence enough to turn heads. </h1>
   </center>
   
 </div>
 <div class="row">
   <div class="column">
-    <img src="assets/pass/img1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor" width="100%">
+    <img src="assets/pass/img1.jpg" class="img-fluid" onclick="openModal();currentSlide(1)" class="hover-shadow cursor" width="100%";>
   </div>
   
 </div>
 
-<div id="myModal" class="modal" style="width:100%;">
-  <div class="modal-content" style="width:100%;">
+<div id="myModal" class="modal">
+  <div class="modal-content" >
   <span class="close cursor ew-resize" onclick="closeModal()">&times;</span>
 
     <div class="mySlides">
       <div class="numbertext">1 / 7</div>
-      <img src="assets/pass/img2.jpg" style="width:100%;height:400px;background-size:cover;">
+      <img src="assets/pass/img2.jpg" style="height:400px;background-size:cover;" class="img-fluid">
     </div>
 
     <div class="mySlides">
       <div class="numbertext">2 / 7</div>
-      <img src="assets/pass/img3.jpg" style="width:100%;height:400px;background-size:cover;">
+      <img src="assets/pass/img3.jpg" style="height:400px;background-size:cover;" class="img-fluid">
     </div>
 
     <div class="mySlides">
       <div class="numbertext">3 / 7</div>
-      <img src="assets/pass/img4.jpg" style="width:100%;height:400px;background-size:cover;">
+      <img src="assets/pass/img4.jpg" style="height:400px;background-size:cover" class="img-fluid">
     </div>
     
     <div class="mySlides">
       <div class="numbertext">4 / 7</div>
-      <img src="assets/pass/img5.jpg" style="width:100%;height:400px;background-size:cover;">
+      <img src="assets/pass/img5.jpg" style="height:400px;background-size:cover;" class="img-fluid">
     </div>
      <div class="mySlides">
       <div class="numbertext">5 / 7</div>
-      <img src="assets/pass/img6.jpg" style="width:100%;height:400px;background-size:cover;">
+      <img src="assets/pass/img6.jpg" style="height:400px;background-size:cover;" class="img-fluid">
     </div>
      <div class="mySlides">
       <div class="numbertext">6/ 7</div>
-      <img src="assets/pass/img7.jpg" style="width:100%;height:400px;background-size:cover;">
+      <img src="assets/pass/img7.jpg" style="height:400px;background-size:cover;" class="img-fluid">
     </div>
      <div class="mySlides">
       <div class="numbertext">7/ 7</div>
-      <img src="assets/pass/img8.jpg" style="width:100%;height:400px;background-size:cover;">
+      <img src="assets/pass/img8.jpg" style="height:400px;background-size:cover;" class="img-fluid">
     </div>
     
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -309,42 +346,42 @@ img.hover-shadow {
 
     <div class="mySlides1">
       <div class="numbertext">1 / 10</div>
-      <img src="assets/pass/img3.jpg" style="width:100%;height:400px;background-size:cover;">
+      <img src="assets/pass/img3.jpg" style="width:100%;height:400px;background-size:cover;" class="img-fluid">
     </div>
 
     <div class="mySlides1">
       <div class="numbertext">2 / 10</div>
-      <img src="assets/pass/img4.jpg" style="width:100%;height:400px;background-size:cover;">
+      <img src="assets/pass/img4.jpg" style="width:100%;height:400px;background-size:cover;" class="img-fluid">
     </div>
 
     <div class="mySlides1">
       <div class="numbertext">3 / 10</div>
-      <img src="assets/pass/img5.jpg" style="width:100%;height:400px;background-size:cover;">
+      <img src="assets/pass/img5.jpg" style="width:100%;height:400px;background-size:cover;" class="img-fluid">
     </div>
     
     <div class="mySlides1">
       <div class="numbertext">4 / 10</div>
-      <img src="assets/pass/img6.jpg" style="width:100%;height:400px;background-size:cover;">
+      <img src="assets/pass/img6.jpg" style="width:100%;height:400px;background-size:cover;" class="img-fluid">
     </div>
     <div class="mySlides1">
       <div class="numbertext">4 / 10</div>
-      <img src="assets/pass/img7.jpg" style="width:100%;height:400px;background-size:cover;">
+      <img src="assets/pass/img7.jpg" style="width:100%;height:400px;background-size:cover;" class="img-fluid">
     </div>
     <div class="mySlides1">
       <div class="numbertext">4 / 10</div>
-      <img src="assets/pass/img8.jpg" style="width:100%;height:400px;background-size:cover;">
+      <img src="assets/pass/img8.jpg" style="width:100%;height:400px;background-size:cover;" class="img-fluid">
     </div>
     <div class="mySlides1">
       <div class="numbertext">4 / 10</div>
-      <img src="assets/pass/img2.jpg" style="width:100%;height:400px;background-size:cover;">
+      <img src="assets/pass/img2.jpg" style="width:100%;height:400px;background-size:cover;" class="img-fluid">
     </div>
     <div class="mySlides1">
       <div class="numbertext">4 / 10</div>
-      <img src="assets/pass/img9.jpg" style="width:100%;height:400px;background-size:cover;">
+      <img src="assets/pass/img9.jpg" style="width:100%;height:400px;background-size:cover;" class="img-fluid">
     </div>
     <div class="mySlides1">
       <div class="numbertext">4 / 10</div>
-      <img src="assets/pass/img11.jpg" style="width:100%;height:400px;background-size:cover;">
+      <img src="assets/pass/img11.jpg" style="width:100%;height:400px;background-size:cover;" class="img-fluid">
     </div>
     
     <a class="prev" onclick="plusSlides1(-1)">&#10094;</a>
@@ -391,7 +428,7 @@ function showSlides1(n) {
 </script>
 <div style="width:100%;height:300px;">
   <br><br><br><br>
-  <h1 style="text-align:center;font-size:50px;">Learn what the Volkswagen Connect App can do </h1>
+  <h1 style="text-align:center;font-size:40px;font-weight: bold;">Learn what the Volkswagen Connect App can do </h1>
   
 </div>
 
@@ -404,45 +441,45 @@ function showSlides1(n) {
   <div class="carousel-inner" role="listbox">
     <div class="item active">
       <div class="item__third">
-        <img src="./assets/ex/img1.jpg" alt="" width="400px" height="300px">
+        <img src="./assets/ex/img1.jpg" alt="" width="400px" height="300px" class="img-fluid">
         <br><br><br><br>
-        <p style="text-align:center;font-size:25px;">
+        <p style="text-align:center;font-size:20px;">
             Look forward to alternating tasks and challenges and collect points and trophies as you go.
           </p>
-          <h3 style="text-align:center;font-size:35px;">Challenges</h3>
+          <h3 style="text-align:center;font-size:35px;font-weight: bold;">Challenges</h3>
       </div>
     </div>
     <div class="item">
       <div class="item__third">
-        <img src="./assets/ex/img2.jpg" alt="" width="400px" height="300px">
+        <img src="./assets/ex/img2.jpg" alt="" width="400px" height="300px" class="img-fluid">
         <br><br><br><br>
-        <p  style="text-align:center;font-size:25px;">
+        <p  style="text-align:center;font-size:20px;">
             
             Keep track on when, where and how much you have filled up, how much it has cost and what your monthly fuel expenses are.
           </p>
-          <h3 style="text-align:center;font-size:35px;">Fuel Monito</h3>
+          <h3 style="text-align:center;font-size:35px;font-weight: bold;">Fuel Monito</h3>
       </div>
     </div>
     <div class="item">
       <div class="item__third">
-        <img src="./assets/ex/img3.jpg" alt="" width="400px" height="300px">
+        <img src="./assets/ex/img3.jpg" alt="" width="400px" height="300px" class="img-fluid">
         <br><br><br><br>
-        <p style="text-align:center;font-size:25px;">Contact your Volkswagen Service Partner easily and immediately.
+        <p style="text-align:center;font-size:20px;">Contact your Volkswagen Service Partner easily and immediately.
           </p>
-          <h2 style="text-align:center;font-size:35px;">
+          <h2 style="text-align:center;font-size:35px;font-weight: bold;">
             Service and Appointments
           </h2>
       </div>
     </div>
     <div class="item">
       <div class="item__third">
-        <img src="./assets/ex/img4.jpg" alt="" width="400px" height="300px">
+        <img src="./assets/ex/img4.jpg" alt="" width="400px" height="300px" class="img-fluid">
         <br><br><br><br>
-        <p style="text-align:center;font-size:25px;">
+        <p style="text-align:center;font-size:20px;">
             Keep an eye on your parking time and send information about your parking location.
           
           </p>
-          <h2 style="text-align:center;font-size:35px;">
+          <h2 style="text-align:center;font-size:35px;font-weight: bold;">
             Parking Locator
           
           </h2>
@@ -450,13 +487,13 @@ function showSlides1(n) {
     </div>
     <div class="item">
       <div class="item__third">
-        <img src="./assets/ex/img5.jpg" alt="" width="400px" height="300px">
+        <img src="./assets/ex/img5.jpg" alt="" width="400px" height="300px" class="img-fluid">
         <br><br><br><br>
-        <p style="text-align:center;font-size:25px;">
+        <p style="text-align:center;font-size:20px;">
             The analysis also records all the other vehicle data and summarises them for you in a clear overview.
           
           </p>
-          <h2 style="text-align:center;font-size:35px;">
+          <h2 style="text-align:center;font-size:35px;font-weight: bold;">
             
             Driving Statistics
           
@@ -465,13 +502,13 @@ function showSlides1(n) {
     </div>
     <div class="item">
       <div class="item__third">
-        <img src="./assets/ex/img6.jpg" alt="" width="400px" height="300px">
+        <img src="./assets/ex/img6.jpg" alt="" width="400px" height="300px" class="img-fluid">
         <br><br><br><br>
-        <p style="text-align:center;font-size:25px;">
+        <p style="text-align:center;font-size:20px;">
             
             Breakdown help is available to you by direct call. Find all the important information on the right things to do quickly and comprehensively here.
           </p>
-          <h2 style="text-align:center;font-size:35px;">
+          <h2 style="text-align:center;font-size:35px;font-weight: bold;">
             
             
             Roadside Assistance
@@ -480,11 +517,11 @@ function showSlides1(n) {
     </div>
     <div class="item">
       <div class="item__third">
-        <img src="./assets/ex/img7.jpg" alt="" width="400px" height="300px">
+        <img src="./assets/ex/img7.jpg" alt="" width="400px" height="300px" class="img-fluid">
         <br><br><br><br>
-        <p style="text-align:center;font-size:25px;">Keep track on when, where and how much you have filled up, how much it costs and what your monthly fuel expenses are.
+        <p style="text-align:center;font-size:20px;">Keep track on when, where and how much you have filled up, how much it costs and what your monthly fuel expenses are.
           </p>
-          <h3 style="text-align:center;font-size:35px;">
+          <h3 style="text-align:center;font-size:35px;font-weight: bold;">
             
             
             My Volkswagen
@@ -493,11 +530,11 @@ function showSlides1(n) {
     </div>
     <div class="item">
       <div class="item__third">
-        <img src="./assets/ex/img4.jpg" alt="" width="400px" height="300px">
+        <img src="./assets/ex/img4.jpg" alt="" width="400px" height="300px" class="img-fluid">
         <br><br><br><br>
-         <p style="text-align:center;font-size:25px;">Breakdown help is available to you by direct call. Find all the important information on the right things to do quickly and comprehensively here.
+         <p style="text-align:center;font-size:20px;">Breakdown help is available to you by direct call. Find all the important information on the right things to do quickly and comprehensively here.
           </p>
-          <h2 style="text-align:center;font-size:35px;">
+          <h2 style="text-align:center;font-size:35px;font-weight: bold;">
             
             
             Roadside Assistance
@@ -506,11 +543,11 @@ function showSlides1(n) {
     </div>
     <div class="item">
       <div class="item__third">
-        <img src="./assets/ex/img8.jpg" alt="" width="400px" height="300px">
+        <img src="./assets/ex/img8.jpg" alt="" width="400px" height="300px" class="img-fluid">
         <br><br><br><br>
-         <p style="text-align:center;font-size:25px;">Keep track on when, where and how much you have filled up, how much it has cost and what your monthly fuel expenses are.
+         <p style="text-align:center;font-size:20px;">Keep track on when, where and how much you have filled up, how much it has cost and what your monthly fuel expenses are.
           </p>
-          <h3 style="text-align:center;font-size:35px;">Fuel Monito</h3>
+          <h3 style="text-align:center;font-size:35px;font-weight: bold;">Fuel Monito</h3>
       </div>
     </div>
   </div>
@@ -565,7 +602,7 @@ $('.multi-item-carousel .item').each(function(){
 </script>
 <div style="width:100%;height:300px;">
 <br>
-<h1 style="text-align:center;font-size:40px;">
+<h1 style="text-align:center;font-size:40px;font-weight: bold;">
 Excellence meets new standard.</h1>
  <center><p style="font-size:20px;">Every line, curve and edge of the car redefines luxury,<br> elegance and sophistication of the new Passat. It is one of those luxury sedans that delivers on being bold but not loud</p></center>
 </div> 
@@ -708,13 +745,14 @@ Excellence meets new standard.</h1>
   background-image: url("./assets/pp/img.png"); 
   background-position: 50% 30%;
   background-size:cover;
-  width:400px;
+  width:400px;background-repeat: no-repeat;
 }
 
 .accordion ul li:nth-child(2) { 
   background-image: url("./assets/pp/img1.png"); 
  background-position: 70% 0%;
   background-size:cover;
+  background-repeat: no-repeat;
 width:400px;
 }
 
@@ -722,28 +760,28 @@ width:400px;
   background-image: url("./assets/pp/img6.png"); 
 background-position: 50% 50%;
   background-size:cover;
-width:400px;
+width:400px;background-repeat: no-repeat;
 }
 
 .accordion ul li:nth-child(4) { 
   background-image: url("./assets/pp/img3.png"); 
   background-position: 30% 40%;
   background-size:cover;
-width:400px;
+width:400px;background-repeat: no-repeat;
 }
 
 .accordion ul li:nth-child(5) { 
   background-image: url("./assets/pp/img4.png"); 
   background-position: 60% 64%;
   background-size:cover;
-width:400px;
+width:400px;background-repeat: no-repeat;
 }
-
 .accordion ul li:nth-child(6) { 
   background-image: url("./assets/pp/img5.jpg"); 
   background-position: 70% 25%;
   background-size:cover;
 width:400px;
+background-repeat: no-repeat;
 }
 
 .accordion ul li { background-size: cover; }
@@ -783,7 +821,7 @@ width:400px;
 </style>
 <br>
 <div style="width:100%;height:200px;background-color:#f3f5f6"><br><br><br>
-<center>  <p style="font-size:40px;" >Make the world feel your presence. </p>
+<center>  <p style="font-size:40px;font-weight: bold;" >Make the world feel your presence. </p>
      <p style="text-align:justify-all;font-size:20px;margin-left:20%;margin-right:10%;">Packed with power and substance, the Passat definitely commands attention from a distance or when it is up close. Explore more of it below.  </p>
 </center>
 
@@ -797,7 +835,7 @@ width:400px;
 
 <div style="width:100%;height:1000px;background-color:rgba(207, 194, 194, 0.3);">
   <div><br><br><br><br>
-    <h1 style="text-align:center;font-size:60px;font-style:bold;">Techno-logic. </h1>
+    <h1 style="text-align:center;font-size:60px;font-style:bold;font-weight: bold;">Techno-logic. </h1>
     <p style="text-align:center;font-size:15px;">
 
 Experience the future of understated advanced technology that<br> remind drivers and passengers alike that this is truly a delightful and comfortable drive</p>
@@ -806,23 +844,23 @@ Experience the future of understated advanced technology that<br> remind drivers
 
   <div class="row">
       <div class="col-md-4">
-        <img src="./assets/tech/img.jpg" width="400px;" height="300px;"><br><br>
+        <img src="./assets/tech/img.jpg" width="400px;" height="300px;"  class="img-fluid"><br><br>
          <center>  <span style="text-align:center;font-size:20px;font-style:bold;">Dynamic Chassis Control </span></center>
-         <center><h1 style="font-size:30px;font-style:bold;">Dynamic assistance for any road </h1></center>
+         <center><h1 style="font-size:30px;font-style:bold;font-weight: bold;">Dynamic assistance for any road </h1></center>
          <center><p style="text-align:justify;margin-left:10px;">The Dynamic Chassis Control in the new Passat ensures your car is constantly aware of its terrain. It adjusts the suspension characteristics to match the road surface and the current driving situation, in accordance with the preset vehicle setting. </p></center>
       </div>
       <div class="col-md-4">
-         <img src="./assets/tech/img1.jpg"  width="400px;" height="300px;"><br><br>
+         <img src="./assets/tech/img1.jpg"  width="400px;" height="300px;" class="img-fluid"><br><br>
         <center> <span style="text-align:center;font-size:20px;font-style:bold;">360 Degree Area View </span></center>
-         <center><h1 style="font-size:30px;font-style:bold;">An all-around presence  </h1></center>
+         <center><h1 style="font-size:30px;font-style:bold;font-weight: bold;">An all-around presence  </h1></center>
          <center><p style="text-align:justify;margin-left:10px;">
 
 Get a bird’s eye view of things. Even the moving ones. Because, like you, the Volkswagen Passat with 360-Degree Area View camera also has an eye for things.  </p></center>
       </div>
       <div class="col-md-4">
-         <img src="./assets/tech/img2.jpg" width="400px;" height="300px;"><br><br>
+         <img src="./assets/tech/img2.jpg" width="400px;" height="300px;" class="img-fluid"><br><br>
        <center>  <span style="text-align:center;font-size:20px;font-style:bold;">Easy Open / Easy Close Boot </span></center>
-        <center><h1 style="font-size:30px;font-style:bold;">Best foot forward  </h1></center>
+        <center><h1 style="font-size:30px;font-style:bold;font-weight: bold;">Best foot forward  </h1></center>
         <center><p style="text-align:justify;margin-left:10px;">Hands free when hands full. All you have to do is move a foot in front of the sensor, and the Easy Open Boot works for you. Then use the Easy Close function, that automatically shuts the boot as you move away from it. It's that simple!  </p></center>
       </div>
     
@@ -841,34 +879,34 @@ Get a bird’s eye view of things. Even the moving ones. Because, like you, the 
 </div>
 <div>
 <br><br><br><br>
-<center><h1 style="font-size:50px;font-style:bold;padding:2px;">Follow the Stars. </h1></center><br>
+<center><h1 style="font-size:50px;font-style:bold;padding:2px;font-weight: bold;">Follow the Stars. </h1></center><br>
       <center><p>Chasing the stars will never be the same in the Passat.</p></center><br><br><br>
-<center><h1 style="font-size:30px;font-style:bold;padding:5px;">Panoramic Sunroof . </h1></center><br>
+<center><h1 style="font-size:30px;font-style:bold;padding:5px;font-weight: bold;">Panoramic Sunroof . </h1></center><br>
  <center><p>With the big and wide panoramic sunroof, giving the impression of a truly open top whilst you sit comfortably inside! .</p></center><br>
-  <center><img src="./assets/tech/img6.jpg" width="800px;" height="400px;">
+  <center><img src="./assets/tech/img6.jpg" width="800px;" height="400px;" class="img-fluid">
 </div>
 <div><br><br><br>
-  <center> <h1 style="font-size:50px;font-style:bold;padding:2px;">Safety optimized.</h1></center>
+  <center> <h1 style="font-size:50px;font-style:bold;padding:2px;font-weight: bold;" >Safety optimized.</h1></center>
   <center><p> Get the very best of safety features built with signature Volkswagen manufacturing making the Passat one of the safest cars to drive.</p>
 </center><br>
 <div class="row">
       <div class="col-md-4">
-        <img src="./assets/tech/img7.jpg" width="400px;" height="300px;"><br><br>
+        <img src="./assets/tech/img7.jpg" width="400px;" height="300px;" class="img-fluid"><br><br>
          <center>  <span style="text-align:center;font-size:20px;font-style:bold;">9 Airbags*  </span></center>
-         <center><h1 style="font-size:30px;font-style:bold;">Cushioned from all sides </h1></center>
+         <center><h1 style="font-size:30px;font-style:bold;font-weight: bold;">Cushioned from all sides </h1></center>
          <center><p style="text-align:justify;margin-left:10px;">Airbags reduce the risk of severe head and chest injuries in collisions with a certain severity. Optimum protection can only be achieved if the occupants are wearing their seat belts properly, as the airbags and the seat belt tensioners together form a finely tuned safety system.*  </p></center>
       </div>
       <div class="col-md-4">
-         <img src="./assets/tech/img8.jpg"  width="400px;" height="300px;"><br><br>
+         <img src="./assets/tech/img8.jpg"  width="400px;" height="300px;" class="img-fluid"><br><br>
         <center> <span style="text-align:center;font-size:20px;font-style:bold;">Anti-lock Braking System  </span></center>
-         <center><h1 style="font-size:30px;font-style:bold;">Safest halts   </h1></center>
+         <center><h1 style="font-size:30px;font-style:bold;font-weight: bold;">Safest halts   </h1></center>
          <center><p style="text-align:justify;margin-left:10px;">
 When the driver brakes hard on a slippery road surface, the Anti-lock Braking System prevents the wheels from locking, so that the vehicle can still be steered.   </p></center>
       </div>
       <div class="col-md-4">
-         <img src="./assets/tech/img9.jpg" width="400px;" height="300px;"><br><br>
+         <img src="./assets/tech/img9.jpg" width="400px;" height="300px;" class="img-fluid"><br><br>
        <center>  <span style="text-align:center;font-size:20px;font-style:bold;">Park Assist  </span></center>
-        <center><h1 style="font-size:30px;font-style:bold;">Park like a pro  </h1></center>
+        <center><h1 style="font-size:30px;font-style:bold;font-weight: bold;">Park like a pro  </h1></center>
         <center><p style="text-align:justify;margin-left:10px;">Outmaneuver through the toughest and tightest spots with the Passat's hands-free parking technology, the Park Assist.   </p></center>
       </div>
     
@@ -879,23 +917,23 @@ When the driver brakes hard on a slippery road surface, the Anti-lock Braking Sy
 <div style="height:400px;">
 <div class="row">
    <div class="col-md-6">
-     <img src="./assets/tech/img10.jpg" width="680px;">
+     <img src="./assets/tech/img10.jpg" width="680px;" class="img-fluid">
    </div>
   <div class="col-md-6">
-     <img src="./assets/tech/img11.jpg" width="680px;">
+     <img src="./assets/tech/img11.jpg" width="680px;" class="img-fluid">
    </div>
 </div>
 </div>
 <div>
   <br><br><br>
-    <center><h1 style="font-size:50px;font-style:bold;padding:2px;">Feel the presence wherever you go.  </h1></center><br>
+    <center><h1 style="font-size:50px;font-style:bold;padding:2px;font-weight: bold;">Feel the presence wherever you go.  </h1></center><br>
       <center><p> Just with its presence the Passat has earned itself a reputation for understated and effortless luxury.
 </p></center><br><br>
-<center><h1 style="font-size:30px;font-style:bold;padding:5px;">Ready, steady Passat!  </h1></center>
+<center><h1 style="font-size:30px;font-style:bold;padding:5px;font-weight: bold;">Ready, steady Passat!  </h1></center>
  <center><p>With a torque of 350 Nm, the turbocharged diesel engine is designed to perform, and propel you towards the destination of your choice in no time. </p></center><br>
 <div class="row">
    <div class="col-md-4 col-md-offset-3 ">
-     <img src="./assets/tech/img.png" width="700px;">
+     <img src="./assets/tech/img.png" width="700px;" class="img-fluid">
    </div>
 </div>
 </div>
@@ -927,21 +965,21 @@ When the driver brakes hard on a slippery road surface, the Anti-lock Braking Sy
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="./assets/tech/img20.jpg"  style="width:100%;" height="400px;">
+        <img src="./assets/tech/img20.jpg"  style="width:600px;" height="400px;" class="img-fluid">
       </div>
 
       <div class="item">
-        <img src="./assets/tech/img24.jpg"  style="width:100%;" height="400px;">
+        <img src="./assets/tech/img24.jpg"  style="width:600px;" height="400px;" class="img-fluid">
       </div>
     
       <div class="item">
-        <img src="./assets/tech/img22.png"  style="width:100%;" height="400px;">
+        <img src="./assets/tech/img22.png"  style="width:600px;" height="400px;" class="img-fluid">
       </div>
       <div class="item">
-        <img src="./assets/tech/img23.png"  style="width:100%;" height="400px;">
+        <img src="./assets/tech/img23.png"  style="width:600px;" height="400px;" class="img-fluid">
       </div>
       <div class="item">
-        <img src="./assets/tech/img24.jpg"  style="width:100%;" height="400px;">
+        <img src="./assets/tech/img24.jpg"  style="width:600px;" height="400px;" class="img-fluid">
       </div>
     </div>
 

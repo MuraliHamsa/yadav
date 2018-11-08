@@ -1061,7 +1061,78 @@ nav.navbar {
   height:700px;
   position: relative;
 }
-
+.pass1 {
+  background-image: url("../tigu/img1.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 160px 0;
+  height:700px;
+  position: relative;
+}
+.pass3 {
+  background-image: url("../vento/img.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 160px 0;
+  height:700px;
+  position: relative;
+}
+.pass4 {
+  background-image: url("../ventoe/img.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 160px 0;
+  height:700px;
+  position: relative;
+}
+.pass5 {
+  background-image: url("../ameo/img.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 160px 0;
+  height:700px;
+  position: relative;
+}
+.pass6 {
+  background-image: url("../ae/img.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 160px 0;
+  height:700px;
+  position: relative;
+}
+.pass7 {
+  background-image: url("../polo/img.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 160px 0;
+  height:700px;
+  position: relative;
+}
+.pass8 {
+  background-image: url("../poloe/img.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 160px 0;
+  height:700px;
+  position: relative;
+}
+.pass9 {
+  background-image: url("../pologt/img.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 160px 0;
+  height:700px;
+  position: relative;
+}
 
 
 /*=======================
