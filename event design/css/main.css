@@ -1869,11 +1869,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   bottom: 0; }
 
 .home-banner-area {
-  background: url(../img/event/ba.jpg) no-repeat center;
+  background: url(../img/event/11.jpg) no-repeat center;
   background-size: cover; }
 
 .banner-area {
-  background: url(../img/event/a.jpg) no-repeat center;
+  background: url(../img/event/latest.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 420px; }
+  .contact-banner-area{
+  background: url(../img/event/10.jpg) no-repeat center;
   background-size: cover;
   min-height: 420px; }
 
