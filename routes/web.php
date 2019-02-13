@@ -17,7 +17,8 @@ Route::get('/about','HomeController@about');
 Route::get('/service','HomeController@serve');
 Route::get('/biz','HomeController@bizpage');
 Route::get('/contact','HomeController@con');
-
+Route::get('/biztalks','HomeController@biztalk');
+Route::get('/event','HomeController@eventpage');
 
 
 Route::group(['prefix' => 'admin'], function () {

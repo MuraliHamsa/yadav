@@ -5,8 +5,9 @@
 <title>BIZ GURUKUL</title>
 <!-- Stylesheets -->
 <link href="{{ URL::asset('public/asset/css/bootstrap.css')}}" rel="stylesheet">
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <link href="{{URL::asset('public/asset/css/style.css')}}" rel="stylesheet" type="text/css">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -66,7 +67,7 @@
             	<div class="clearfix">
                 	
                 	<div class="pull-left logo-box">
-                    	<div style="width:200px;height:40px;" class="logo"><a href="index.html"><img src="{{asset('public/asset/images/logo2.png')}}" alt="" title=""></a></div>
+                    	<div style="width:200px;height:40px;" class="logo"><a href="{{URL::to('/')}}/service"><img src="{{asset('public/asset/images/logo2.png')}}" alt="" title=""></a></div>
                     </div>
                    	
                    	<div class="nav-outer clearfix">
@@ -84,8 +85,12 @@
 							<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
 								<ul class="navigation clearfix">
 									<li class="current dropdown"><a href="{{URL::to('/')}}/welcome">Home</a>
-									
+										<ul>
+											<li><a href="{{URL::to('/')}}/welcome">Home</a>
 									</li>
+										</ul>
+									</li>
+
 									<li class="dropdown"><a href="{{URL::to('/')}}/about">About</a>
 										<ul>
 											<li><a href="{{URL::to('/')}}/about">About Us</a></li>
@@ -114,11 +119,11 @@
 									</li>
 									<li class="dropdown"><a href="#">Biz Talks</a>
 										<ul>
-											<li><a href="{{URL::to('/')}}/service">Biz Talks</a></li>
+											<li><a href="{{URL::to('/')}}/biztalks">Biz Talks</a></li>
 											
 										</ul>
 									</li>
-									<li><a href="contact.html">Events</a></li>
+									<li><a href="{{URL::to('/')}}/event">Events</a></li>
 									<li><a href="{{URL::to('/')}}/contact">Contact us</a></li>
 								</ul>
 							</div>
@@ -181,9 +186,9 @@
                         <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent1">
                             <ul class="navigation clearfix">
                                 <li class="current dropdown"><a href="{{URL::to('/')}}/welcome">Home</a>
-									<!-- <ul>
-										<li><a href="index.html">Home Page 01</a></li>
-										<li><a href="index-2.html">Home Page 02</a></li>
+									<ul>
+										<li><a href="{{URL::to('/')}}/welcome">Home</a></li>
+										<!-- <li><a href="index-2.html">Home Page 02</a></li>
 										<li><a href="index-3.html">Home Page 03</a></li>
 										<li><a href="index-4.html">Home Page 04</a></li>
 										<li><a href="index-5.html">Home Page 05</a></li>
@@ -195,8 +200,8 @@
 												<li><a href="index-4.html">Header Style 04</a></li>
 												<li><a href="index-5.html">Header Style 05</a></li>
 											</ul>
-										</li>
-									</ul> -->
+										</li> -->
+									</ul>
 								</li>
 								<li class="dropdown"><a href="#">About</a>
 									<ul>
@@ -207,6 +212,15 @@
 								<li class="dropdown"><a href="{{URL::to('/')}}/service">Services</a>
 									<ul>
 										<li><a href="{{URL::to('/')}}/service">Reports & Insights</a></li>
+										<li class="dropdown"><a href="#">Biz Exclusives</a>
+										<ul>
+											<li><a href="{{URL::to('/')}}/biz">Biz Exclusives</a>
+											</li>
+											<li><a href="{{URL::to('/')}}/biztalks">Biz Talks</a>
+											</li>
+											
+										</ul>
+									</li>
 										<!-- <li><a href="services-two.html">Services Type 02</a></li>
 										<li><a href="financial-investment.html">Financial Investment</a></li>
 										<li><a href="market-research.html">Market Research</a></li>
@@ -218,22 +232,22 @@
 										<li><a href="global-coach.html">Global Coaching</a></li> -->
 									</ul>
 								</li>
-								<li class="dropdown"><a href="#">Portfolio</a>
+								<li class="dropdown"><a href="{{URL::to('/')}}/event">Events</a>
 									<ul>
-										<li><a href="portfolio-two-column.html">Portfolio Two Column</a></li>
-										<li><a href="portfolio-three-column.html">Portfolio Three Column</a></li>
+										<li><a href="{{URL::to('/')}}/event">Events</a></li>
+										<!-- <li><a href="portfolio-three-column.html">Portfolio Three Column</a></li>
 										<li><a href="portfolio-masonry.html">Portfolio Masonry</a></li>
-										<li><a href="portfolio-single.html">Portfolio Single</a></li>
+										<li><a href="portfolio-single.html">Portfolio Single</a></li> -->
 									</ul>
 								</li>
-								<li class="dropdown"><a href="#">Blog</a>
+								<!-- <li class="dropdown"><a href="#">Blog</a>
 									<ul>
 										<li><a href="blog.html">Blog Grid Style</a></li>
 										<li><a href="blog-left.html">Blog Left Sidebar</a></li>
 										<li><a href="blog-classic.html">Blog Fullwidth</a></li>
 										<li><a href="blog-single.html">Blog Single Post</a></li>
 									</ul>
-								</li>
+								</li> -->
 								<li><a href="{{URL::to('/')}}/contact">Contact us</a></li>
                             </ul>
                         </div>

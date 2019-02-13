@@ -66,9 +66,10 @@
   <div class="tab-content">
     <div id="home" class="tab-pane fade in active">
         @foreach($cat1 as $catall1)
-        <div id="" style="overflow: hidden;" class="col-md-3 col-md-offset-1">
+        <div id="" style="overflow: hidden;" class="col-md-4">
           <center> <img src="/kavi/public/storage/{{$catall1->image}}" width="500px" height="500px"><br><br><br>
-           
+                  {!! $catall1->caption1 !!}
+             <br>
              {!! $catall1->youtubelink !!}<br>
            
             <?php 
@@ -80,6 +81,7 @@
               <source src="http://localhost/kavi/public/storage/{{$y}}" type="video/mp4">
             
           </video>
+                  {!! $catall1->caption2 !!}
                           
             </center><br><br>
                           @if($loop->iteration % 3==0)
@@ -100,6 +102,8 @@
           <center> <img src="/kavi/public/storage/{{$catall2->image}}" width="500px" height="500px"><br><br><br>
            
              {!! $catall2->youtubelink !!}<br>
+
+                  {!! $catall1->caption1 !!}
            
             <?php 
                  $s = json_decode($catall2->video);
@@ -110,6 +114,7 @@
               <source src="http://localhost/kavi/public/storage/{{$y}}" type="video/mp4">
             
           </video>
+                  {!! $catall1->caption2 !!}<br>
                           
             </center><br><br>
                           @if($loop->iteration % 3==0)
@@ -128,7 +133,8 @@
      @foreach($cat3 as $catall3)
         <div id="" style="overflow: hidden;" class="col-md-3 col-md-offset-1">
           <center> <img src="/kavi/public/storage/{{$catall3->image}}" width="500px" height="500px"><br><br><br>
-           
+                  {!! $catall1->caption1 !!}
+           <br>
              {!! $catall3->youtubelink !!}<br>
            
             <?php 
@@ -140,6 +146,7 @@
               <source src="http://localhost/kavi/public/storage/{{$y}}" type="video/mp4">
             
           </video>
+                  {!! $catall1->caption2 !!}<br>
                           
             </center><br><br>
                           @if($loop->iteration % 3==0)
@@ -158,7 +165,8 @@
       @foreach($cat4 as $catall4)
         <div id="" style="overflow: hidden;" class="col-md-3 col-md-offset-1">
           <center> <img src="/kavi/public/storage/{{$catall4->image}}" width="500px" height="500px"><br><br><br>
-           
+                  {!! $catall1->caption1 !!}<br>
+                  
              {!! $catall4->youtubelink !!}<br>
            
             <?php 
@@ -170,7 +178,8 @@
               <source src="http://localhost/kavi/public/storage/{{$y}}" type="video/mp4">
             
           </video>
-                          
+                  {!! $catall1->caption2 !!}
+                       <br>   
             </center><br><br>
                           @if($loop->iteration % 3==0)
                               </div>
@@ -188,7 +197,8 @@
       @foreach($cat5 as $catall5)
         <div id="" style="overflow: hidden;" class="col-md-3 col-md-offset-1">
           <center> <img src="/kavi/public/storage/{{$catall5->image}}" width="500px" height="500px"><br><br><br>
-           
+                  {!! $catall1->caption1 !!}
+           <br>
              {!! $catall5->youtubelink !!}<br>
            
             <?php 
@@ -200,6 +210,7 @@
               <source src="http://localhost/kavi/public/storage/{{$y}}" type="video/mp4">
             
           </video>
+                  {!! $catall1->caption2 !!}<br>
                           
             </center><br><br>
                           @if($loop->iteration % 3==0)
@@ -218,7 +229,8 @@
       @foreach($cat6 as $catall6)
         <div id="" style="overflow: hidden;" class="col-md-3 col-md-offset-1">
           <center> <img src="/kavi/public/storage/{{$catall6->image}}" width="500px" height="500px"><br><br><br>
-           
+                  {!! $catall1->caption1 !!}
+           <br>
              {!! $catall6->youtubelink !!}<br>
            
             <?php 
@@ -230,6 +242,7 @@
               <source src="http://localhost/kavi/public/storage/{{$y}}" type="video/mp4">
             
           </video>
+                  {!! $catall1->caption2 !!}<br>
                           
             </center><br><br>
                           @if($loop->iteration % 3==0)
@@ -248,7 +261,8 @@
       @foreach($cat7 as $catall7)
         <div id="" style="overflow: hidden;" class="col-md-3 col-md-offset-1">
           <center> <img src="/kavi/public/storage/{{$catall7->image}}" width="500px" height="500px"><br><br><br>
-           
+                  {!! $catall1->caption1 !!}
+           <br>
              {!! $catall7->youtubelink !!}<br>
            
             <?php 
@@ -260,6 +274,7 @@
               <source src="http://localhost/kavi/public/storage/{{$y}}" type="video/mp4">
             
           </video>
+                  {!! $catall1->caption2 !!}<br>
                           
             </center><br><br>
                           @if($loop->iteration % 3==0)
